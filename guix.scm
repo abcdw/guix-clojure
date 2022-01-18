@@ -4,6 +4,7 @@
              (gnu packages base)
              (gnu packages node)
              (gnu packages java)
+             (gnu packages clojure)
              (gnu packages python-web)
              (rde packages)
              (gnu packages emacs-xyz)
@@ -16,14 +17,10 @@
  (source (local-file "."))
  (build-system trivial-build-system)
  (native-inputs
-  `(("make" ,gnu-make)
-    ("unzip" ,unzip) ; Needed for navigating source code from jars
-    ("cider" ,emacs-cider)
-    ("emacs-consumer" ,emacs-consumer)
-    ("node" ,node-lts)
-    ("openjdk" ,openjdk16 "jdk")
-    ("clojure-tools" ,clojure-tools)
-    ("clj-kondo" ,clj-kondo)))
+  (list gnu-make unzip emacs-cider emacs-consumer node-lts clojure-tools
+        emacs-elfeed
+        clj-kondo
+        (list openjdk16 "jdk")))
  (home-page "")
  (synopsis "")
  (description "")

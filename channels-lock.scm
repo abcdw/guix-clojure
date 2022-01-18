@@ -2,7 +2,7 @@
         (name 'non-guix)
         (url "https://gitlab.com/nonguix/nonguix")
         (commit
-          "3ec1e7f16590c3b681d6cb3b110b0d9c115586ea"))
+          "4c0b9a86521a6d06c895b41e62c254da83feff7a"))
       (channel
         (name 'rde)
         (url "https://git.sr.ht/~abcdw/rde")
@@ -12,7 +12,7 @@
         (name 'guix)
         (url "https://git.savannah.gnu.org/git/guix.git")
         (commit
-          "d95a982cdd898790d247f013440f08a448265e3f")
+          "8cdecad237343f5c955d17df3a78e41fa1f2d56c")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
