@@ -8,6 +8,7 @@
 
              (rde features)
              (rde features emacs)
+             (rde features emacs-xyz)
              (rde features clojure)
 
              (gnu packages base)
